@@ -1,7 +1,3 @@
-# DataFusion Query Runner
-
-A Rust application demonstrating DataFusion query execution with parquet files.
-
 ## Prerequisites
 
 - Rust (latest stable version)
@@ -21,6 +17,5 @@ The application will:
 
 ## Project Structure
 
-- `src/main.rs` - Main application code
-- `data/` - Contains the parquet data file
-- `Cargo.toml` - Project dependencies and configuration
+- `src/main.rs` - query runner
+- `data/` - parquet file(s)
