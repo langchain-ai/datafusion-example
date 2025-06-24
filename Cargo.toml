@@ -1,0 +1,13 @@
+[package]
+name = "datafusion-example"
+version = "0.1.0"
+edition = "2021"
+
+[[bin]]
+name = "query_runner"
+path = "src/main.rs"
+
+[dependencies]
+arrow-array = "55.1.0"
+datafusion = "48.0.0"
+tokio = { version = "1.0", features = ["full"] }
